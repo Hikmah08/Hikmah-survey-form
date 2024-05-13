@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">Fill out this survey form</p>
+    <div id="container">
+    <form id="survey-form">
+      <label id="name-label">Name:
+        <input id="name" type="text" placeholder="Name"required/>
+        </label>
+        <label id="email-label">E-mail
+          <input id="email" type="email"placeholder="Enter your e-mail" required/>
+          </label>
+          <label id="number-label">Age:
+            <input id="number" type="number"  min="13" max="120" placeholder="Age"/>
+          </label>
+         <p>What course are you studying currently:</p>
+          <label id="frontend-label">
+          <input type="checkbox" value="Front-end development"checked/>Front-end development
+          </label>
+          <label>
+          <input type="checkbox" value="Data Analysis"/>Data Analysis
+          </label>
+          <label>
+          <input type="checkbox" value="Data Science" />Data Science
+          </label>
+          <label>
+          <input type="checkbox" value="CyberSecurity"/>CyberSecurity
+          </label>
+          <label>
+          <input type="checkbox" value="Product design"/>Product design
+          </label>
+          <p id="knowledge">Have you been able to master the basic knowledge on your course:</p>
+            <select id="dropdown">
+            <option>Yes</option>
+            <option>NO</option>
+            <option>Just a little bit</option>
+          </select>
+          <p id="communication">How did you find out about us:
+            <label id="whatsapp-label">
+          <input type="radio" name="social-media" checked value="whatsapp"/>Whatsapp
+          </label>
+          <label id="twitter-label">
+          <input type="radio" name="social-media" value="twitter">Twitter
+          </label>
+          <label id="linkedin-label">
+          <input type="radio" name="social-media" value="linkedin"/>LinkedIn
+          </label>
+          <label id="discord-label">
+          <input type="radio" name="social-media" value="discord"/>Discord
+          </label>
+          <textarea id="comments"rows=6 cols="40" placeholder="What do you think this program can do better in offering of its services"></textarea>
+          <input id="submit" type="submit"/>
+    </form>
+    </div>
+  </body>
+</html>
