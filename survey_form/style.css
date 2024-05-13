@@ -1,0 +1,44 @@
+body{
+    background-color:#333;
+    color:grey;
+    width:100vh;
+    font-family: Tahoma;
+  }
+  #title,#description{
+    text-align:center;
+  }
+  
+  #container{
+    border:1px solid white;
+    background-color:white;
+     width:80vh;
+  }
+  label{
+    display:block;
+    margin:2px
+  }
+  #name,#email,#number{
+    display:block;
+    width:250px;
+    height:30px;
+    border-radius:3px;
+    background-color:rgb(43, 29, 29);
+  }
+  #name-label, #email-label,#number-label{
+    padding:5px;
+    margin-top:5px;
+  }
+  #knowledge{
+    margin-bottom:2px;
+  }
+  #dropdown{
+    margin-top:5px;
+    display:inline;
+  }
+  textarea{
+    background-color:#333;
+    border:1px solid white;
+    border-radius:3px;
+    width:300px;
+    height:100px;
+  }
